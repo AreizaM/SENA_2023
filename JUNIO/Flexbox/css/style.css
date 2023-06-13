@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.nav div{
+    width: 500px;
+    text-align: center;
+}
+.nav div ul {
+    display: flex;
+}
+.nav div ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+.nav div input{
+    background-color: #1A1A1D;
+    border-radius: 7px;
+    border-color: white;
+    padding: 10px; 
+}
+.nav ::placeholder{
+    padding: 20px;
+    color:white;
+}
+.nav div button{
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    border-style: none;
+    padding: 10px;
+
+}
+.div__{
+    background-color:#C0C0C0;
+    padding: 80px 200px;   
+}
+.div__ h1{
+    text-align: center;
+    font-size: 80px;    
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: lightgrey;
+}
+.search ::placeholder{
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+/* Etiqueta main */
+.main__flexbox section{
+    display: flex;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.main__flexbox section div{
+    width: 400px;
+    margin: 0 auto;
+    /* padding-bottom: 40px; */
+}
+.main__flexbox a{
+    text-decoration: none;
+}
+
+/* Footer */
+.footer{
+    text-align: center;
+}
+
+
+/* Nuevas clases */
+.container{
+    display: flex;
+    
+}
+.image{
+    padding-top: 70px;
+    padding-left: 40px;
+}

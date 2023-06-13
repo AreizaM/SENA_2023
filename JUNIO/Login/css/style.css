@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(#8696FE, #C4B0FF);
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    min-height: calc(100vh -200px);
+}
+
+.login_container{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.login_container h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+.login_container_form{
+    display: flex;
+    flex-direction: column;
+}
+
+::placeholder{
+    color: white;
+}
+
+.login_container_remember{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.login_container_remember label{
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+.login_container_remember_link{
+    display: block;
+    font-size: 15px;
+    color:white;
+    text-decoration: none;
+}
+
+.input{
+    background-color: transparent;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    padding: 0px 20px;
+    height: 50px;
+}
+.button{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 40px 40px 40px 40px;
+    border-style: dashed;
+    border-color: rgba(235, 240, 239, 0.287);
+    padding: 20px;
+    background-color: inherit;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+.login_container_social{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.login_container_social div img{
+    width: 40px;
+}
+
+span{
+    padding-left: 15px;
+}
+
+.login_container_register{
+    color: white;
+    display: flex;
+    font-size: 14px;
+}
+
+.login_container_register a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.footer a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0px;
+    background: transparent;
+}
+
